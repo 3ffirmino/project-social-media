@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    background-color: green;
+    background-color: #3f3f3f;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -29,11 +29,6 @@ main {
     background-image: url('../imagens/frame-iphone.png');
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
 }
 
 .iphone iframe {
