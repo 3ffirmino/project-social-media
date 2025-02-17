@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;  
+}
+
+main {
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.iphone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 311px;
+    height: 623px;
+    background-image: url('../imagens/frame-iphone.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.iphone iframe {
+    width: 258px;
+    height: 455px;
+}
+
+main .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu img {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    width: 80px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.menu img:hover {
+    border: 2.5px solid #fff;
+    transform: translate(0%, -5%);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);;
+}
